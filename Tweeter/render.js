@@ -8,6 +8,7 @@ const Renderer = function(){
         $("#posts").empty()
         const newHTML = template({post: posts})
         $("#posts").append(newHTML)
+        
        
        
     }
